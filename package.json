@@ -1,6 +1,6 @@
 {
-    "name": "@logisticinfotech/sails-hook-actions2-swagger",
-    "version": "0.0.9",
+    "name": "@msv300/sails-hook-actions2-swagger",
+    "version": "1.0.0",
     "description": "sails hook for generating swagger.json and its ui",
     "main": "index.js",
     "scripts": {
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/logisticinfotech/sails-hook-actions2-swagger.git"
+        "url": "git+https://github.com/msv300/sails-hook-actions2-swagger.git"
     },
     "keywords": [
         "sails v1",
@@ -20,19 +20,17 @@
         "action2-swagger",
         "sails-hook"
     ],
-    "author": "Nirav Adatiya <niravjadatiya@gmail.com>",
+    "author": "Sakthivel <msv300@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/logisticinfotech/sails-hook-actions2-swagger/issues"
+        "url": "https://github.com/msv300/sails-hook-actions2-swagger/issues"
     },
-    "dependencies": {
-    },
+    "dependencies": {},
     "devDependencies": {
         "sails": "^1.1.0"
     },
     "sails": {
         "isHook": true,
         "hookName": "sails-hook-actions2-swagger"
-    },
-    "homepage": "https://www.logisticinfotech.com/blog/sails-hook-actions2-swagger-generator/"
+    }
 }

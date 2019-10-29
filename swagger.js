@@ -26,9 +26,9 @@ module.exports = {
             description: "This is a generated swagger json for your sails project",
             termsOfService: "",
             contact: {
-                name: "Nirav Adatiya",
-                url: "https://github.com/logisticinfotech",
-                email: "nirav@logisticinfotech.com"
+                name: "Sakthivel M",
+                url: "https://github.com/msv300",
+                email: "msv300@gmail.com"
             },
             license: {
                 name: "Apache 2.0",
@@ -42,9 +42,6 @@ module.exports = {
             "http",
             "https"
         ],
-        externalDocs: {
-            url: "http://www.logisticinfotech.com"
-        },
         parameters: {
             WhereQueryParam: {
                 in: "query",
@@ -122,7 +119,7 @@ module.exports = {
         securityDefinitions: {
             "Authorization": {
                 "type": "apiKey",
-                "description": "user JWT Auth Token",
+                "description": "User JWT Auth Token",
                 "name": "Authorization",
                 "in": "header",
                 "flow": "password"

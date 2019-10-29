@@ -46,7 +46,7 @@ module.exports = function swaggerGenerator(sails) {
     // getting global object if defined
     // console.log('defined In config: ', sails.config.swaggerConfig);
     if (sails.config.swaggerConfig) {
-      _.merge(swaggerConfig, sails.config.swaggerConfig);
+      swaggerConfig = _.merge(swaggerConfig, sails.config.swaggerConfig);
     }
     // console.log('final swagger config: ', swaggerConfig);
     // return;
@@ -372,7 +372,7 @@ module.exports = function swaggerGenerator(sails) {
         return console.log(err);
       }
       //   console.log("Cheers 🍺  Swagger JSON generated at ", fullPath,  ' Access it with http://localhost:' + sails.config.port + '/swagger ');
-      console.log('Cheers 🍺  Swagger doc generated, Access it with http://localhost:' + sails.config.port + '/swagger ');
+      console.log('Cheers 🍺  Swagger doc generated, Access it with ' + swaggerConfig.swagger.host + ':' + sails.config.port + '/swagger ');
     });
 
     // let htmlFilePath = sails.config.appPath + '/' + swaggerConfig.pathToGenerateFile + 'index.html';

@@ -1,6 +1,6 @@
 {
     "name": "@msv300/sails-hook-actions2-swagger",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "sails hook for generating swagger.json and its ui",
     "main": "index.js",
     "scripts": {
